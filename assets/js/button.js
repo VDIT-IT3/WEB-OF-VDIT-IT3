@@ -1,3 +1,3 @@
 function Play() {
-  alert("Lên pc mà chơi ");
+  alert("Bạn hãy lên các thiết bị máy tính để có những trải nghiệm tốt nhất^^");
 }
