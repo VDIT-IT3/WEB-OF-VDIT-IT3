@@ -46,6 +46,7 @@
   .col-xxl-6 {
     width: 100%;
     padding: 0;
+    margin-top: 20px;
   }
 }
 
@@ -113,7 +114,7 @@
   .col-xxl-6 iframe {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 12px;
     width: 100%;
     height: 100%;
   }
@@ -121,5 +122,35 @@
 
 p {
   margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+  .paragraph {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+}
+
+.popup {
+  background-color: #444444;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  width: 100%;
+  height: 100%;
+  transition: 0.25s linear;
+  opacity: 0;
+  visibility: hidden;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.popup1 {
+  position: relative;
+}
+
+.popup1:hover .popup {
+  opacity: 1;
+  visibility: visible;
 }
 
