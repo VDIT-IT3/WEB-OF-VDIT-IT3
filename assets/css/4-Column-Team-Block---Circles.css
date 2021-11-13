@@ -154,3 +154,12 @@ p {
   visibility: visible;
 }
 
+.popup1 {
+}
+
+@media (max-width: 576px) {
+  .popup {
+    height: 120% !important;
+  }
+}
+
